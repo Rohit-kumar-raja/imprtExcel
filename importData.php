@@ -16,6 +16,7 @@ if($extention=='xl' || $extention=="xls" || $extention=="xlsx" || $extention=="c
         // $i is th number of data in rows 
 echo $name=$all_data->getCellByColumnAndRow(0,$i)->getValue(); 
 echo $email=$all_data->getCellByColumnAndRow(1,$i)->getValue();
+echo $address=$all_data->getCellByColumnAndRow(2,$i)->getValue();
 echo "<br>";
 // here can write the sql query for inserting the data in database
 
